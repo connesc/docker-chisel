@@ -1,5 +1,5 @@
 FROM busybox:1.27
-ENV CHISEL_VERSION 1.2.5
+ENV CHISEL_VERSION 1.3.0
 RUN wget -O - "https://github.com/jpillora/chisel/releases/download/${CHISEL_VERSION}/chisel_linux_amd64.gz" | gunzip > /chisel \
 	&& chmod +x /chisel
 
